@@ -1,9 +1,6 @@
 name: Daily grouping parquet files
 
 on:
-  schedule:
-    - cron: "0 5 * * *"   # 05:00 UTC daily (07:00 Spain time)
-    - cron: "0 12 * * *"  # 12:00 UTC daily (14:00 Spain time)
   workflow_dispatch: {}
 
 jobs:
