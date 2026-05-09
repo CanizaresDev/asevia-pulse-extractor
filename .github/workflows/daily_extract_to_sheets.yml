@@ -1,9 +1,6 @@
 name: Daily extract to Google Sheets
 
 on:
-  schedule:
-    - cron: "0 6 * * *"   # 06:00 UTC daily (08:00 Spain time)
-    - cron: "0 13 * * *"  # 13:00 UTC daily (15:00 Spain time)
   workflow_dispatch: {}
 
 jobs:
